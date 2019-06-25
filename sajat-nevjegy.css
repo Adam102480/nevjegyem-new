@@ -109,7 +109,6 @@ body {
 /* The navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: none;
   margin-top: -100px;
   width: 100%;
 }
@@ -127,7 +126,6 @@ body {
 
 /* Change background on mouse-over */
 .navbar a:hover {
-  background: none;
   color: black;
   transform: scale(1.1);
   filter: grayscale(20%);
@@ -138,7 +136,6 @@ body {
   text-decoration: none;
 }
 .codeberry:hover {
-  background: none;
   color: black;
   transform: scale(1.1);
   filter: grayscale(20%);
