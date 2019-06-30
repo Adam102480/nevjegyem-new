@@ -25,6 +25,12 @@ body {
   text-align: center;
 }
 
+.links {
+    position:relative;
+    left:120px;
+    bottom:20px;
+    }
+
 .head, .content {
   width: 90%;
   margin: 0 auto;
@@ -57,13 +63,12 @@ p {
 }
 
 img {
-  width: 130px;
-  height: auto;
+  width: 120px;
   border-radius: 10%;
   padding: 1px;
   background-color: #666;
   transition: all 0.5s ease-in-out;
-  filter: grayscale(50%);
+  filter: grayscale(50%); 
 }
 
 img:hover {
@@ -74,6 +79,31 @@ img:hover {
 .profile-image {
   margin-top: 20px;
 }
+
+#me { 
+     float:left;
+     box-sizing: border-box;
+     width: 120px;
+     height: auto;
+     margin-top: 22px;
+     margin-left: 30px;
+     display:inline-block;
+}
+
+#stemcell {
+    box-sizing: border-box;
+    width: 240px;
+    height:135px;
+    margin-top: 12px;
+    display:inline-block;
+    }
+
+#name {
+    margin-top:15px;
+    box-sizing: border-box;
+    position: relative;
+    right:70px;
+    }
 
 /* Contact links */
 ul {
@@ -114,14 +144,14 @@ body {
 }
 /* Links inside the navbar */
 .navbar a {
-  float: right;
+  float: left;
   display:block;
   color: blue;
   text-align: center;
-  padding: 30px 42px;
+  padding: 20px 42px;
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 /* Change background on mouse-over */
